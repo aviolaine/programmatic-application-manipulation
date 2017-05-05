@@ -12,11 +12,12 @@ In Linux, ...
 
 ## File description + usage
 #### Windows:
-Find and manipulate:
+##### Find and manipulate:
 findAndManipulate.exe: This executable will prompt you for the title of the application you want to manipulate (the text in bar at the top of any window). From there, it will allow you to programmatically minimize, alt-tab, move the x/y coordinates of the window, and change the width/height of the window.
 
-Manipulate a sample application:
+##### Manipulate a sample application:
 createExample.exe: This creates a window programmatically that will be used to demonstrate the text insertion and button clicking scripts. This script has to be running for the next two scripts to work.
+
 buttonExample.exe: This script programmatically clicks the button in the createExample window.
 textExample.exe: This script programmatically enters text into the edit field in the createExample window. In particular, it enters the letter 'a'.
 
