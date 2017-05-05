@@ -8,7 +8,7 @@ However, even though the scripts are run on a created binary, it is easy to edit
 
 In Windows, it is common to use Spy++ to find out what names/ids elements in an application have, or what WinAPI functions are being used at application runtime. One can also use EnumWindows on the window to find all of the children of the window (AKA all of the elements in a window, like buttons or text fields). Once you know the names/ids of the elements, it is extremely simple to manipulate them like in the provided scripts.
 
-In Linux, ...
+In Unix, ...
 
 ## File description + usage
 ### Windows:
@@ -21,11 +21,11 @@ createExample.exe: This creates a window programmatically that will be used to d
 buttonExample.exe: This script programmatically clicks the button in the createExample window.
 textExample.exe: This script programmatically enters text into the edit field in the createExample window. In particular, it enters the letter 'a'.
 
-### Linux:
+### Unix:
 ...
 
 ## Installing
-For windows scripts: If you are only using the executables, make sure that you are using a Windows computer. Preferably use a Windows 10 computer; it is where the code was compiled originally.
+For Windows scripts: If you are only using the executables, make sure that you are using a Windows computer. Preferably use a Windows 10 computer; it is where the code was compiled originally.
 If you would like to compile the scripts yourself, make sure g++ is installed, then run 'make' in any directory to create the executables.
 
-For linux scripts: ...
+For Unix scripts: ...
