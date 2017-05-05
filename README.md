@@ -1,5 +1,4 @@
 # programmatic-application-manipulation (for CS460)
-## Synopsis
 This project demonstrates desktop application manipulation APIs in Windows and Unix.
 
 The purpose of using a script as opposed to manually clicking and typing is so that one can complete repetitive tasks automatically. 
