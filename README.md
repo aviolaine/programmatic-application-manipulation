@@ -11,7 +11,7 @@ In Windows, it is common to use Spy++ to find out what names/ids elements in an 
 In Linux, ...
 
 ## File description + usage
-#### Windows:
+### Windows:
 ##### Find and manipulate:
 findAndManipulate.exe: This executable will prompt you for the title of the application you want to manipulate (the text in bar at the top of any window). From there, it will allow you to programmatically minimize, alt-tab, move the x/y coordinates of the window, and change the width/height of the window.
 
@@ -21,7 +21,7 @@ createExample.exe: This creates a window programmatically that will be used to d
 buttonExample.exe: This script programmatically clicks the button in the createExample window.
 textExample.exe: This script programmatically enters text into the edit field in the createExample window. In particular, it enters the letter 'a'.
 
-#### Linux:
+### Linux:
 ...
 
 ## Installing
