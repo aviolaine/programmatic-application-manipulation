@@ -20,7 +20,10 @@ buttonExample.exe: This script programmatically clicks the button in the createE
 textExample.exe: This script programmatically enters text into the edit field in the createExample window. In particular, it enters the letter 'a'.
 
 #### Linux:
+...
 
 ## Installing
-For windows scripts: make sure g++ is installed, and that you are using a Windows computer. Preferably use a Windows 10 computer; it is where the code was compiled originally.
-If you want to make changes to the scripts, simply run 'make' to create a new executable.
+For windows scripts: If you are only using the executables, make sure that you are using a Windows computer. Preferably use a Windows 10 computer; it is where the code was compiled originally.
+If you would like to compile the scripts yourself, make sure g++ is installed, then run 'make' in any directory to create the executables.
+
+For linux scripts: ...
