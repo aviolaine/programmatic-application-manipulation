@@ -1,3 +1,5 @@
+#programmatic-application-manipulation (CS460 final project)
+##Synopsis
 This project demonstrates desktop application manipulation APIs in Windows and Unix.
 
 The purpose of using a script as opposed to manually clicking and typing is so that one can complete repetitive tasks automatically. 
@@ -7,8 +9,8 @@ However, even though the scripts are run on a created binary, it is easy to edit
 In Windows, it is common to use Spy++ to find out what names/ids elements in an application have, or what WinAPI functions are being used at application runtime. One can also use EnumWindows on the window to find all of the children of the window (AKA all of the elements in a window, like buttons or text fields). Once you know the names/ids of the elements, it is extremely simple to manipulate them like in the provided scripts.
 In Linux, ...
 
-Here is a description of the files and their usage.
-Windows:
+##File description + usage
+##Windows:
 Find and manipulate:
 findAndManipulate.exe: This executable will prompt you for the title of the application you want to manipulate (the text in bar at the top of any window). From there, it will allow you to programmatically minimize, alt-tab, move the x/y coordinates of the window, and change the width/height of the window.
 
@@ -17,4 +19,8 @@ createExample.exe: This creates a window programmatically that will be used to d
 buttonExample.exe: This script programmatically clicks the button in the createExample window.
 textExample.exe: This script programmatically enters text into the edit field in the createExample window. In particular, it enters the letter 'a'.
 
-Linux:
+##Linux:
+
+##Installing
+For windows scripts: make sure g++ is installed, and that you are using a Windows computer. Preferably use a Windows 10 computer; it is where the code was compiled originally.
+If you want to make changes to the scripts, simply run 'make' to create a new executable.
