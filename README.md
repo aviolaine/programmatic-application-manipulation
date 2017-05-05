@@ -4,8 +4,10 @@ This project demonstrates desktop application manipulation APIs in Windows and U
 The purpose of using a script as opposed to manually clicking and typing is so that one can complete repetitive tasks automatically. 
 Note that many applications prohibit the use of third-party clients and/or scripts that will manipulate application usage outside of the actual application. This is why much of the project relies on the use of a created binary as opposed to an existing one.
 
-However, even though the scripts are run on a created binary, it is easy to edit these scripts and use them on existing applications to perform complex, repetitive operations. 
+However, even though the scripts are run on a created binary, it is easy to edit these scripts and use them on existing applications to perform complex, repetitive operations.
+
 In Windows, it is common to use Spy++ to find out what names/ids elements in an application have, or what WinAPI functions are being used at application runtime. One can also use EnumWindows on the window to find all of the children of the window (AKA all of the elements in a window, like buttons or text fields). Once you know the names/ids of the elements, it is extremely simple to manipulate them like in the provided scripts.
+
 In Linux, ...
 
 ## File description + usage
