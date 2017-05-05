@@ -1,4 +1,4 @@
-# programmatic-application-manipulation (CS460 final project)
+# programmatic-application-manipulation (for CS460)
 ## Synopsis
 This project demonstrates desktop application manipulation APIs in Windows and Unix.
 
