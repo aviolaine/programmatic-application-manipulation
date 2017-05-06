@@ -47,12 +47,16 @@ To compile the scripts, make sure g++ is installed, then run 'make' in any direc
 
 ##### For Unix scripts:
 On debian/ubuntu run:
+
     sudo apt-get install xdotool
     sudo apt-get install xautomation
 
 Otherwise:
+
 http://www.semicomplete.com/projects/xdotool
+
 https://www.hoopajoo.net/projects/xautomation.html
+
 ^ check out the links above for the .tar.gz or alternative installation.
 
 ALSO make sure you have python/python3 installed. 
@@ -63,4 +67,5 @@ Make sure you have python3 installed.
 Make sure 'selenium' is installed on python3.
 
 https://chromedriver.storage.googleapis.com/index.html?path=2.29/
+
 ^unzip this, and store the executable in a PATH location (i.e. /usr/local/bin for Ubuntu)
