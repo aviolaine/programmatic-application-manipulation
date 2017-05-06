@@ -18,7 +18,7 @@ In Web, Selenium's webdriver is (in my opinion) already adequately robust enough
 ## File description + usage
 ### Windows:
 ##### Find and manipulate:
-findAndManipulate.exe: This executable will prompt you for the title of the application you want to manipulate (the text in bar at the top of any window). From there, it will allow you to programmatically minimize, alt-tab, move the x/y coordinates of the window, and change the width/height of the window. [Note: you have to literally type in 'Minimize()', 'Move()' for the program to work.]
+findAndManipulate.exe: This executable will prompt you for the title of the application you want to manipulate (the text in bar at the top of any window). From there, it will allow you to programmatically minimize, alt-tab, move the x/y coordinates of the window, and change the width/height of the window. [Note: you have to literally type in 'Minimize()', 'Move()', etc. for the program to work.]
 
 ##### Manipulate a sample application:
 createExample.exe: This creates a window programmatically that will be used to demonstrate the text insertion and button clicking scripts. This script has to be running for the next two scripts to work.
@@ -70,6 +70,7 @@ Make sure 'tkinter' is installed on python.
 ##### For Web script:
 Confirmed to work on Ubuntu.
 
+Make sure you have Google Chrome normally installed.
 Make sure you have python3 installed.
 Make sure 'selenium' is installed on python3.
 
