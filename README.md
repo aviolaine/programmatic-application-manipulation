@@ -45,7 +45,8 @@ autoTest.py: Runs with 'python3 autoTest.py'. Automatically opens a chrome windo
 Confirmed to work on Windows 10.
 
 Make sure that you are using a Windows computer.
-To compile the scripts, make sure g++ is installed, then run 'make' in any directory to create the executables.
+To compile the scripts, make sure g++ is installed, then run 'make' in any directory to create the executables (I suggest doing this through cygwin).
+If you don't want to compile the scripts, message me and ask for the executables.
 
 ##### For Unix scripts:
 Confirmed to work on Ubuntu.
