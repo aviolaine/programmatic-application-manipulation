@@ -34,6 +34,7 @@ findAndManipulate.sh: Runs with 'sh ./findAndManipulate.sh'. Prompts the user to
 createExample.py: Runs with 'python createExample.py' or 'python3 createExample.py'. This python script creates a basic tkinter GUI-based application to demonstrate the text insertion and button clicking scripts. This script has to be running for the next two scripts to work. MAKE SURE THERE ARE NO OTHER tkinter GUIS RUNNING, OR THE SCRIPTS WILL LIKELY NOT BEHAVE AS INTENDED.
 
 buttonExample.sh: Runs with 'sh ./buttonExample.sh'. Programmatically clicks the button in the createExample window.
+
 textExample.sh: Runs with 'sh ./textExample.sh'. Programmatically enters the text 'A ROBOT WAS HERE' into the createExample window.
 
 ### Web:
