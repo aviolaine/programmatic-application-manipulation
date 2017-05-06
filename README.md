@@ -42,10 +42,14 @@ autoTest.py: Runs with 'python3 autoTest.py'. Automatically opens a chrome windo
 
 ## Installing
 ##### For Windows scripts:
-Make sure that you are using a Windows computer. Preferably use a Windows 10 computer; it is where the code was compiled successfully originally.
+Confirmed to work on Windows 10.
+
+Make sure that you are using a Windows computer.
 To compile the scripts, make sure g++ is installed, then run 'make' in any directory to create the executables.
 
 ##### For Unix scripts:
+Confirmed to work on Ubuntu.
+
 On debian/ubuntu run:
 
     sudo apt-get install xdotool
@@ -63,6 +67,8 @@ ALSO make sure you have python/python3 installed.
 Make sure 'tkinter' is installed on python.
 
 ##### For Web script:
+Confirmed to work on Ubuntu.
+
 Make sure you have python3 installed.
 Make sure 'selenium' is installed on python3.
 
